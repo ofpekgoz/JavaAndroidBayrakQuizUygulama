@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultActivity">
+
+    <TextView
+        android:id="@+id/txtSonuc"
+        android:layout_width="335dp"
+        android:layout_height="83dp"
+        android:layout_marginTop="130dp"
+        android:gravity="center"
+        android:text="5 DOĞRU 0 YANLIŞ"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtBasariOrani"
+        android:layout_width="168dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="48dp"
+        android:gravity="center"
+        android:text="%20 BAŞARI"
+        android:textColor="#D32F2F"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtSonuc" />
+
+    <Button
+        android:id="@+id/btnTekrarDene"
+        android:layout_width="209dp"
+        android:layout_height="82dp"
+        android:layout_marginTop="84dp"
+        android:text="tekrar dene"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtBasariOrani" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
